@@ -8,9 +8,24 @@ public class propuesto11 {
 
         System.out.println("Los cincuenta primeros números pares son: ");
 
-        for(int i=0; i<=50; i=i+2){
+        System.out.println("Usando el contador.");
+        for(int i=0; i<=100; i=i+2){
             System.out.println(i);
         }
+
+        System.out.println("Usando una sucesion aritmetica.");
+        for(int i=1; i<=50; i++){
+            System.out.println(2*i);
+        }
+
+        System.out.println("Usando modulo 2.");
+        for(int i=1; i<=100; i++){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+
+
     }
     
 }
