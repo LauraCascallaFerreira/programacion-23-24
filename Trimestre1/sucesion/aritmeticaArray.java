@@ -8,7 +8,7 @@ public class aritmeticaArray {
     public static void main(String[] args) {
 
         int inicial, razon, termino, tope;
-        
+        int suma=0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Término inicial: ");
@@ -22,11 +22,13 @@ public class aritmeticaArray {
 
         int[] arr = new int[tope];
 
-        for(int i=inicial; i<tope; i++){
+        for(int i=0; i<tope; i++){
             arr[i]=inicial+i*razon;
+            suma+=arr[i];
         }
 
         System.out.println(Arrays.toString(arr));
+        System.out.println("La suma de los "+tope+" nº mostrados es: "+suma);
     }
     
 }
