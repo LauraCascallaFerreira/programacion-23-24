@@ -5,33 +5,48 @@ import java.util.Scanner;
 
 public class geometrica {
 
+    // termino enesimo      inicial por la razon a la (n-1)
+    // an      =      a1* r elevado a n-1
+
+    // 1----> 1
+    // razon ----> 2
+    // sef ------> 1*2 = 2
+    // ter ->>>>>>> 2*2 = 4
+    // cuarto -----> 4*2 = 8
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int suma = 0;
 
-        //termino enesimo inicial * razon elevado a (n-1)
+        // Solicitar al usuario los valores de la progresión geométrica
+        System.out.print("Ingrese el primer término : ");
+        int primerTermino = scanner.nextInt();
 
-        int inicial, razon, termino;
-        int tope;
-        int suma=0;
+        System.out.print("Ingrese la razón : ");
+        int razon = scanner.nextInt();
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Término inicial: ");
-        inicial=sc.nextInt();
+        System.out.print("Ingrese el valor de n : ");
+        int n = scanner.nextInt();
 
-        System.out.println("Razón:");
-        razon=sc.nextInt();
+        // Calcular y mostrar la progresión geométrica hasta el término enésimo
+        int[] progresion = calcularProgresionGeometrica(primerTermino, razon, n);
+ 
+        System.out.println("Progresión geométrica hasta el término enésimo:");
 
-        System.out.println("Cuántos términos quieres sacar:");
-        tope=sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            System.out.print(progresion[i] + " ");
+            suma += progresion[i];
+        }
+        System.out.println("\nTotal: " + suma);
+    }
 
-        int[] arr = new int[tope];
+    private static int[] calcularProgresionGeometrica(int primerTermino, int razon, int n) {
+        int[] progresion = new int[n];
 
-        for(int i=0; i<tope; i++){
-            arr[i]=inicial*((int)Math.pow(razon, i-1));
-            suma+=arr[i];
+        for (int i = 0; i < n; i++) {
+            progresion[i] = primerTermino * (int) Math.pow(razon, i);
         }
 
-        System.out.println(Arrays.toString(arr));
-        System.out.println("La suma de los "+tope+" nº mostrados es: "+suma);
+        return progresion;
     }
-    
 }
