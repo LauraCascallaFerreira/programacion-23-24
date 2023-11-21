@@ -12,6 +12,16 @@ public class testRectangulo {
         uno.incrementarAlto();
         uno.incrementarAlto();
         uno.incrementarAlto();
+
+        rectangulo dos = new rectangulo(uno);
+        System.out.println(dos.toString());
+        dos.incrementarAlto();
+        dos.incrementarAncho();
+
+        System.out.println("Datos de uno:");
+        System.out.println(uno);
+        System.out.println("Datos de dos: ");
+        System.out.println(dos);
     }
     
 }

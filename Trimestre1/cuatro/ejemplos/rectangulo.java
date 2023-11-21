@@ -5,6 +5,12 @@ public class rectangulo {
     private int ancho=0;
     private int alto=0;
 
+    //Constructor de copia
+    rectangulo(rectangulo r){
+        this.ancho=r.ancho;
+        this.alto=r.alto;
+    }
+
     rectangulo(int ancho, int alto){
         this.ancho=ancho;
         this.alto=alto;
