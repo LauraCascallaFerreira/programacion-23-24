@@ -4,16 +4,39 @@ public class rectangulo {
 
     private int ancho=0;
     private int alto=0;
+    private String nombre="";
+
+    rectangulo(int ancho, int alto, String nombre){
+        this.ancho=ancho;
+        this.alto=alto;
+        this.nombre=nombre;
+    }
 
     //Constructor de copia
     rectangulo(rectangulo r){
         this.ancho=r.ancho;
         this.alto=r.alto;
+        this.nombre=r.nombre;
     }
 
-    rectangulo(int ancho, int alto){
-        this.ancho=ancho;
-        this.alto=alto;
+    public rectangulo clone(){
+        Object objeto = null;
+        try{
+            objeto=super.clone();
+
+        } catch (CloneNotSupportedException ex){
+            System.out.println("Erro al duplicar");
+        }
+
+        return (rectangulo) objeto;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public int getAncho() {
@@ -39,13 +62,13 @@ public class rectangulo {
 
     public rectangulo incrementarAlto(){
         alto++;
-        rectangulo fake = new rectangulo(4, 5);
+        rectangulo fake = new rectangulo(4, 5, "uno");
         return fake;
     }
 
     @Override
     public String toString() {
-        return "rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
-    }    
+        return "rectangulo [ancho=" + ancho + ", alto=" + alto + ", nombre=" + nombre + "]";
+    }  
     
 }
