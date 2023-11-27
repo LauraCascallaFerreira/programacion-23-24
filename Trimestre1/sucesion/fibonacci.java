@@ -8,15 +8,20 @@ public class fibonacci {
         int tCero=0;
         int tUno=1;
         int aux=0;
-        System.out.println(tCero);
-        System.out.println(tUno);
-        for(int i=0; i<=veces; i++){
+        for(int i=0; i<veces; i++){
             aux=tCero+tUno;
-            System.out.println("Fibonacci "+(i+2)+" "+aux);
             tCero=tUno;
             tUno=aux;
         }
         return aux;
+    }
+
+    public static int fibonacciRecursivo(int veces){
+        //caso limite
+
+        //caso simplificado
+
+        return veces;
     }
 
     public static void main(String[] args) {
@@ -24,7 +29,7 @@ public class fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.println("Cuantos números de fibonacci quieres sacar: ");
         int veces=sc.nextInt();
-        System.out.println("El termino "+veces+"es:");
+        System.out.println("El termino "+veces+" es:");
         System.out.println(fibonacciIterativo(veces)); 
     }
     
