@@ -1,8 +1,7 @@
 package propuestos;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
-//COMPLETAR
 
 public class propuesto01 {
 
@@ -13,17 +12,29 @@ public class propuesto01 {
        1 5 15 35 70
      */
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Dime el número de filas");
-        int filas=sc.nextInt();
+     public static void ver(int arr[][]){
+        int filas  = arr.length;
 
         for(int j=0; j<filas; j++){
-            for(int i=0; i<1; i++){
-                System.out.print("1 ");
+            for(int i=0; i<filas; i++){
+                System.out.print(arr[j][i]+" ");
             } //interno
             System.out.println();
         }//externo
+     }
+
+    public static void main(String[] args) {
+        int filas=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Dime el número de filas");
+        filas=sc.nextInt();
+        int arr[][] = new int[filas][filas];
+
+        ver(arr);
+
+        //for(int k=0; k<filas; k++){
+        //    System.out.println(Arrays.toString(arr[k]));
+        //}
     }
     
 }
