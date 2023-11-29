@@ -4,6 +4,25 @@ import java.util.Scanner;
 
 public class transformaBaseIterativo {
 
+
+    public static String transformaIterCBase(int dato, int base){
+        String res="";
+        int d=dato;
+        int b=base;
+        do{
+            res=(int)(d%b)+res;
+            //para añadir posiciones a la cifra
+            System.out.println("res: "+res);
+            d=d/b;
+
+            if(d<b){
+                res=d+res;
+                System.err.println("Resultado: "+res);
+            }
+        } while(b<=d);
+        return res;
+    }
+
     public static void muestraCifra(int dato){
         if(dato<10){
             System.out.println(dato);
