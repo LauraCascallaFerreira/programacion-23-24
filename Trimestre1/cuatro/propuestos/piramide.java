@@ -1,6 +1,6 @@
 package propuestos;
 
-public class propuesto03 {
+public class piramide {
 
     //Mostrar esta piramide por recursividad
     /*   1

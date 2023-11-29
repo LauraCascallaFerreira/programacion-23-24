@@ -1,6 +1,6 @@
 package propuestos;
 
-public class propuesto04 {
+public class piramide2 {
 
     /*   1
        1 1 1
