@@ -8,6 +8,9 @@ public class piramide {
        1 2 1
       1 3 3 1
      1 4 6 4 1 */
+    
+    //RECURSIVO suma(fila 5)------> algo+suma(fila 4)
+    //caso límite suma(fila 1)-----> 1
 
     public static int elemento(int fila, int columna){
         if(columna==1)

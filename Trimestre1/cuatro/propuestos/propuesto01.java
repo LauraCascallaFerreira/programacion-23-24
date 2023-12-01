@@ -12,6 +12,9 @@ public class propuesto01 {
        1 5 15 35 70
      */
 
+     //posicion(fila i, columna j) = posicion (fila i, columna j-1)
+     //posicion(fila i-1, columna);
+
      public static void ver(int arr[][]){
         int filas  = arr.length;
 
