@@ -35,4 +35,17 @@ public class espada extends pez{
         this.numero_De_Aletas = numero_De_Aletas;
     }    
     
+    @Override
+    public void nada() {
+        super.nada();
+        System.out.println(" ¡Ojo que te pincho!");
+    }
+
+    @Override
+    public String toString() {
+        return "espada [largoApéndice=" + largoApéndice + ", numero_De_Aletas=" + numero_De_Aletas + 
+        super.toString()+"]";
+    }
+
+    
 }
