@@ -13,15 +13,36 @@ Si hacemos => 48 + 75 + 1 = 124*/
 
 public class ejercicio02 {
 
+    //metodo aparte para resolver este ejercicio
+    public static int sumaDivisores(int num){
+        int suma=0;
+        for(int i=1; i<=num; i++){
+            if(num%i==0)
+                suma+=i;
+        }
+        return suma;
+    }
+
+    public static boolean sonNovios(int num1, int num2){
+        boolean sonNovios=false;
+        if(sumaDivisores(num1)==sumaDivisores(num2) && sumaDivisores(num2)==num1+num2+1)
+            sonNovios=true;
+        return sonNovios;
+    }
+
     public static void main(String[] args) {
-        int suma1=0; int suma2=0; int fin=0; double num1=0; double num2=0;
+        int num1=0; int num2=0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Dame un número:");
-        num1=sc.nextDouble();
+        num1=sc.nextInt();
         System.out.println("Dame otro número:");
-        num2=sc.nextDouble();
+        num2=sc.nextInt();
 
-        fin = (int) (num1+num2+1);
+        sumaDivisores(num1);
+        sumaDivisores(num2);
+        sonNovios(num1, num2);
+
+        /*fin = (int) (num1+num2+1);
 
         for(int i=1; i<=num1; i++){
             if(num1%i==0){
@@ -35,15 +56,12 @@ public class ejercicio02 {
             }
         }
 
-        System.out.println(suma1+" "+suma2);
+        System.out.println("Primera suma: "+suma1);
+        System.out.println("Segunda suma: "+suma2);
 
-        if(fin==suma1 && fin==suma2){
+       if(fin==suma1 && fin==suma2){
             System.out.println("Son números novios");
-        } else System.out.println("No son números novios.");
-
-        /*if(count1==count2){
-            System.out.println("Son números novios.");
-        } else System.out.println("No son números novios");*/
+        } else System.out.println("No son números novios.");*/
         
     }
 

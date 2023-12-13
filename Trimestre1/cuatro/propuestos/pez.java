@@ -56,4 +56,9 @@ public class pez {
         else 
             return true;
     }
+
+    @Override
+    public String toString() {
+        return "pez [nombre=" + nombre + ", longitud=" + longitud + ", peso=" + peso + "]";
+    }
 }

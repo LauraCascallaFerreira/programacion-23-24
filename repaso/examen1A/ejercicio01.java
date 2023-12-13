@@ -21,29 +21,41 @@ por pantalla el descuento y el precio final. */
 
 public class ejercicio01 {
 
-    public static void main(String[] args) {
-        char tarjeta, star;
+    public static float pedirPrecio(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("De qué es tu tarjeta: oro(o), plata(p) o bronce(b)");
-        tarjeta=sc.next().charAt(0);
-        System.out.println("Es tarjeta star: si(s) o no(n)");
-        star=sc.next().charAt(0);
+        System.out.println("Dime tu precio a pagar:");
+        float precio=sc.nextFloat();
+        return precio;
+    }
 
-        if(tarjeta=='o'){
-            if(star=='s'){
-                System.out.println("Tu descuento es del 25%");
-            } else System.out.println("Tu descuento es del 20%.");
-        } else if (tarjeta=='p'){
-            if(star=='s'){
-                System.out.println("Tu descuento es del 15%");
-            } else System.out.println("Tu descuento es del 10%.");
-        } else if(tarjeta=='b'){
-            if(star=='s'){
-                System.out.println("Tu descuento es del 10%");
-            } else System.out.println("Tu descuento es del 5%.");
+    public static char pedirDatosTarjeta(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("De que tipo es tu tarjeta? Oro (o), plata(p), bronce(c)");
+        char tarjeta=sc.next().charAt(0);
+        return tarjeta;
+    }
+
+    public static char esStar(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Eres clase STAR? SI(s) NO(n)");
+        char star=sc.next().charAt(0);
+        return star;
+    }
+
+    public static void Calculos(){
+        pedirPrecio();
+        pedirDatosTarjeta();
+        switch (pedirDatosTarjeta()){
+            case 'o':
+                
         }
 
     }
+    
+     public static void main(String[] args) {
+        pedirPrecio();
+        pedirDatosTarjeta();
+     }
 
 
     

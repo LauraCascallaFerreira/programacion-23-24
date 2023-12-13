@@ -9,6 +9,8 @@ Pedir dos números a y b al usuario y mostrar si son números amigos o no lo son
 Un ejemplo es el par de números (220, 284), ya que: los divisores de
 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110, que suman 284; y los divisores de 284 
 son 1, 2, 4, 71 y 142, que suman 220. */
+//gemelos
+//perfectos
 
 public class ejercicio02 {
 
@@ -25,14 +27,14 @@ public class ejercicio02 {
                 suma1+=i;
             }
         }
-        System.out.println("La suma de los divisores de"+num1+" es: "+suma1);
+        System.out.println("La suma de los divisores de "+num1+" es: "+suma1);
 
         for(int i=1; i<num2; i++){
             if(num2%i==0){
                 suma2+=i;
             }
         }
-        System.out.println("La suma de los divisores de"+num2+" es: "+suma2);
+        System.out.println("La suma de los divisores de "+num2+" es: "+suma2);
 
         if(suma2==num1 && suma1==num2){
             System.out.println("Son números amigos.");

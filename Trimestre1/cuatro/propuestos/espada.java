@@ -43,9 +43,6 @@ public class espada extends pez{
 
     @Override
     public String toString() {
-        return "espada [largoApéndice=" + largoApéndice + ", numero_De_Aletas=" + numero_De_Aletas + 
-        super.toString()+"]";
+        return "espada [largoApéndice=" + largoApéndice + ", numero_De_Aletas=" + numero_De_Aletas + super.toString()+"]";
     }
-
-    
 }
