@@ -1,4 +1,4 @@
-package cosasExamen;
+
 
 import java.util.Scanner;
 
