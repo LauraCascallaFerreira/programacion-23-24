@@ -48,6 +48,6 @@ public class cuentaAhorro {
 
     @Override
     public String toString() {
-        return "cuentaAhorro [nombre=" + nombre + ", numeroCuenta=" + numeroCuenta + ", saldo=" + saldo + "]";
+        return "cuentaAhorro [nombre=" + nombre + ", numeroCuenta="  + ", saldo=" + saldo + "]";
     }
 }

@@ -9,16 +9,13 @@ introducido.*/
 public class ejercicio01 {
     
     public static void main(String[] args) {
-        
-        int arr[] = new int[5];
         Scanner sc = new Scanner(System.in);
+        int arr[] = new int[5];
         System.out.println("Dame cinco números:");
-
         for(int i=0; i<arr.length; i++){
-            int num = sc.nextInt();
+            int num=sc.nextInt();
             arr[i]=num;
         }
-
         System.out.println(Arrays.toString(arr));
     }
 }
