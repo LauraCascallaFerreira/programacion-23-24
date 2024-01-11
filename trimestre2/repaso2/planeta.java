@@ -1,12 +1,5 @@
 package trimestre2.repaso2;
 
-/*Se requiere un programa que modele el concepto de un planeta del sistema solar. 
-La clase debe incluir los siguientes métodos:
-
-u En un método main se deben crear dos planetas y mostrar los valores de sus atributos en pantalla. Además, se debe imprimir la
-densidad de cada planeta y si el planeta es un planeta exterior del
-sistema solar. */
-
 public class planeta {
 
     /*Un nombre de tipo Sring con valor inicial de null.
@@ -49,6 +42,22 @@ public class planeta {
         return densidad=masa/volumen;
     }
 
+    public static boolean calcular(double distanciaAlSol) {
+            double cinturonAsteroidesMin = 2.1 * 149597870;
+            double cinturonAsteroidesMax = 3.4 * 149597870;
+    
+            return distanciaAlSol > cinturonAsteroidesMax;
+        }
+
+    public void esExterior(int distanciaSol){
+        double distanciaAlSol = 3.5 * distanciaSol;
+        if (calcular(distanciaAlSol)) 
+            System.out.println("El planeta es exterior.");
+        else 
+            System.out.println("El planeta no es exterior.");
+        
+    }
+
     @Override
     public String toString() {
         return "planeta [nombre=" + nombre + ", satelites=" + satelites + ", masa=" + masa + ", volumen=" + volumen
@@ -60,6 +69,15 @@ public class planeta {
     Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de 
     asteroides se encuentra entre 2.1 y 3.4 UA. Una
     unidad astronómica (UA) es la distancia entre la Tierra y el Sol=149597870 Km. */
+
+    
+
+        
+    
+        
+        
+    
+    
     
     
 }

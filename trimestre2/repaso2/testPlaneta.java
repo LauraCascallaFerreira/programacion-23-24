@@ -9,6 +9,7 @@ public class testPlaneta {
         System.out.println(p1);
         System.out.println("Densidad: ");
         System.out.println(p1.calcularDensidad(1678.9, 123.8));
+        p1.esExterior(19272463);
 
     }
 }
