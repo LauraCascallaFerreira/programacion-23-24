@@ -1,4 +1,4 @@
-package Trimestre1.tres;
+package trimestre1.tres;
 
 public class Letrass {
     /*5. Realiza una clase letras que almacene una letra y la convierta a mayúsculas. La clase tendrá los siguientes

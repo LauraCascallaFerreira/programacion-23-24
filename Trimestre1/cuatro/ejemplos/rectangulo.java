@@ -1,4 +1,4 @@
-package ejemplos;
+package trimestre1.cuatro.ejemplos;
 
 public class rectangulo {
 

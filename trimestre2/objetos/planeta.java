@@ -1,4 +1,4 @@
-package trimestre2.repaso2;
+package trimestre2.objetos;
 
 public class planeta {
 
@@ -15,7 +15,6 @@ public class planeta {
     Observable a simple vista, de tipo booleano con valor inicial false.*/
     
     enum tamaño {gaseoso, terrestre, enano};
-
     private String nombre;
     private int satelites=0;
     private double masa=0;
@@ -24,9 +23,11 @@ public class planeta {
     private int distanciaSol=0;
     private tamaño tamaño;
     private boolean observable=false;
+    private int periodoOrbital=0;
+    private int preciodoRotacion=0;
 
     public planeta(String nombre, int satelites, double masa, double volumen, int diametro, int distanciaSol,
-            trimestre2.repaso2.planeta.tamaño tamaño, boolean observable) {
+            trimestre2.objetos.planeta.tamaño tamaño, boolean observable, int periodoOrbital, int preciodoRotacion) {
         this.nombre = nombre;
         this.satelites = satelites;
         this.masa = masa;
@@ -35,6 +36,8 @@ public class planeta {
         this.distanciaSol = distanciaSol;
         this.tamaño = tamaño;
         this.observable = observable;
+        this.periodoOrbital = periodoOrbital;
+        this.preciodoRotacion = preciodoRotacion;
     }
 
     public double calcularDensidad (double masa, double volumen){
@@ -42,42 +45,22 @@ public class planeta {
         return densidad=masa/volumen;
     }
 
-    public static boolean calcular(double distanciaAlSol) {
-            double cinturonAsteroidesMin = 2.1 * 149597870;
-            double cinturonAsteroidesMax = 3.4 * 149597870;
-    
-            return distanciaAlSol > cinturonAsteroidesMax;
-        }
+    /*Determinar si un planeta del sistema solar se considera exterior.
+    Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de 
+    asteroides se encuentra entre 2.1 y 3.4 UA. Una
+    unidad astronómica (UA) es la distancia entre la Tierra y el Sol=149597870 Km. */
 
-    public void esExterior(int distanciaSol){
-        double distanciaAlSol = 3.5 * distanciaSol;
-        if (calcular(distanciaAlSol)) 
-            System.out.println("El planeta es exterior.");
-        else 
-            System.out.println("El planeta no es exterior.");
-        
+    public static boolean esExterior(int distanciaSol){
+        double UA=1495978;
+        if(distanciaSol>(UA*3.1))
+            return true;
+        else return false;
     }
 
     @Override
     public String toString() {
         return "planeta [nombre=" + nombre + ", satelites=" + satelites + ", masa=" + masa + ", volumen=" + volumen
                 + ", diametro=" + diametro + ", distanciaSol=" + distanciaSol + ", tamaño=" + tamaño + ", observable="
-                + observable + "]";
+                + observable + ", periodoOrbital=" + periodoOrbital + ", preciodoRotacion=" + preciodoRotacion + "]";
     }
-
-    /*Determinar si un planeta del sistema solar se considera exterior.
-    Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de 
-    asteroides se encuentra entre 2.1 y 3.4 UA. Una
-    unidad astronómica (UA) es la distancia entre la Tierra y el Sol=149597870 Km. */
-
-    
-
-        
-    
-        
-        
-    
-    
-    
-    
 }

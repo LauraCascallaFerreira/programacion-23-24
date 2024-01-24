@@ -1,4 +1,4 @@
-package trimestre2.repaso2;
+package trimestre2.objetos;
 
 public class persona2 {
 

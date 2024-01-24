@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Crea una clase con un método millasAMetros() que toma como parámetro de entrada 
  * un valor en millas marinas y las convierte a metros.
  * Una vez tengas este método escribe otro millasAKilometros() que realice la 

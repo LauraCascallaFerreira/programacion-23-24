@@ -1,3 +1,4 @@
+package trimestre1.dos;
 public class testProSatelite {
     
     public static void main(String[] args) {

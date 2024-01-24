@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Realiza una clase finanzas que convierta dólares a euros y viceversa. Codifica 
  * los métodos dolaresToEuros
  * y eurosToDolares. Prueba que dicha clase funciona 

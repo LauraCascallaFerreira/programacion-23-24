@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Realiza una clase número que almacene un número entero y tenga las siguientes 
  * características:
  * Constructor por defecto que inicializa a 0 el número interno.

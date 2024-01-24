@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /* Para la clase anterior implementa los siguientes métodos, los cuales podrán 
  * modificar los valores de los atributos de la clase:
  * setKms

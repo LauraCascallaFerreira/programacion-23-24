@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Crea la clase peso, la cual tendrá las siguientes características:
  * Deberá tener un atributo donde se almacene el peso de un objeto en kilogramos.
  * En el constructor se le pasará el peso y la medida en la que se ha tomado (‘Lb’ 

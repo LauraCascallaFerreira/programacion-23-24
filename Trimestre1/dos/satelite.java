@@ -1,3 +1,4 @@
+package trimestre1.dos;
 public class satelite {
     
     //atributos

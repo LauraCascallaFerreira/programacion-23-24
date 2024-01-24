@@ -1,4 +1,4 @@
-package Trimestre1.boletin01;
+package trimestre1.boletin01;
 
 import java.util.Random;
 import java.util.Scanner;

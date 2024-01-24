@@ -1,4 +1,4 @@
-package Trimestre1.tres.propuestos;
+package trimestre1.tres.propuestos;
 
 public class propuesto12 {
 

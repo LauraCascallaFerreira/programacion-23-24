@@ -1,4 +1,4 @@
-package sucesion;
+package trimestre1.sucesion;
 
 import java.util.Scanner;
 

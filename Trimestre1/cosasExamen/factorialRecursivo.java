@@ -1,3 +1,4 @@
+package trimestre1.cosasExamen;
 public class factorialRecursivo {
     
     public static int calcularFactorial(int n) {

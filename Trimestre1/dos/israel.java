@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /* El restaurante mejicano de Israel cuya especialidad son las papas con chocos 
  * nos pide diseñar un método con el que se pueda saber cuántos clientes pueden 
  * atender con la materia prima que tienen en el almacén. El método recibe la 

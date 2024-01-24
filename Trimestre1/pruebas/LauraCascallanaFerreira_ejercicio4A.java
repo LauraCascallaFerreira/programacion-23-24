@@ -1,8 +1,8 @@
-package Trimestre1.pruebas;
+package trimestre1.pruebas;
 
 import java.util.Scanner;
 
-import Trimestre1.tres.resuelto02;
+import trimestre1.tres.resuelto02;
 
 public class LauraCascallanaFerreira_ejercicio4A {
 

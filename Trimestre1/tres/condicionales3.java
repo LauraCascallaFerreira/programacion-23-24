@@ -1,4 +1,4 @@
-package Trimestre1.tres;
+package trimestre1.tres;
 
 import java.util.Scanner;
 

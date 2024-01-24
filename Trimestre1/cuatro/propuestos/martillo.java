@@ -1,4 +1,4 @@
-package propuestos;
+package trimestre1.cuatro.propuestos;
 
 public class martillo extends pez {
 

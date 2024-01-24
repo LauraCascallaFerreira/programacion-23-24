@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /* Realiza una clase minumero que proporcione el doble, triple y cuádruple de un 
  * número proporcionado en su constructor (realiza un método para doble, otro 
  * para triple y otro para cuádruple). Haz un test que testee los distintos

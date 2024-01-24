@@ -1,4 +1,4 @@
-package Recursividad;
+package trimestre1.recursividad;
 
 public class ContarDigitos {
 

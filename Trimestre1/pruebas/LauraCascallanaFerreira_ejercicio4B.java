@@ -1,4 +1,4 @@
-package Trimestre1.pruebas;
+package trimestre1.pruebas;
 
 import java.util.Scanner;
 

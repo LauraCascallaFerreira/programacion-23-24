@@ -1,4 +1,4 @@
-package Trimestre1.tres;
+package trimestre1.tres;
 
 public class resuelto03 {
     /*3. Realiza un programa que muestre por pantalla los 5 primeros números pares. */

@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Modifica la clase satélite y añádele los siguientes métodos:
  * Método void variaAltura(double desplazamiento). Este método acepta un parámetro 
  * que será positivo o negativo dependiendo de si el satélite tiene que alejarse o 

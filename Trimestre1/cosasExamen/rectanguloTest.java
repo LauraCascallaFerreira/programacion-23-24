@@ -1,3 +1,4 @@
+package trimestre1.cosasExamen;
 public class rectanguloTest {
 
     public static void main (String[] args){

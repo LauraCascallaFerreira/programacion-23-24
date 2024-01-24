@@ -1,4 +1,4 @@
-package propuestos;
+package trimestre1.cuatro.propuestos;
 
 import java.util.Scanner;
 

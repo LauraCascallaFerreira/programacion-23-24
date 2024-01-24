@@ -1,4 +1,4 @@
-package Trimestre1.tres.ejemplos;
+package trimestre1.tres.ejemplos;
 
 public class ejemplo10 {
     /*Mostrar todas las tablas desde el uno hasta el 10 en un maximo de 5 lineas */

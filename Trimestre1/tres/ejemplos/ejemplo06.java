@@ -1,4 +1,4 @@
-package Trimestre1.tres.ejemplos;
+package trimestre1.tres.ejemplos;
 
 public class ejemplo06 {
     

@@ -1,4 +1,4 @@
-package trimestre2.repaso2;
+package trimestre2.objetos;
 
 public enum genero {
     H,M,D

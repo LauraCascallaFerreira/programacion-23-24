@@ -1,3 +1,4 @@
+package trimestre1.dos;
 public class testCoche2 {
     public static void main(String[] args) {
 		

@@ -1,3 +1,4 @@
+package trimestre1.dos;
 public class testPajaro {
 
     public static void main(String[] args) {

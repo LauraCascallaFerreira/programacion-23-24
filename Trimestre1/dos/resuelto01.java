@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Realiza una clase Temperatura, la cual convierta grados Celsius a Farenheit y 
 	 * viceversa. Para ello crea dos métodos double celsiusToFarenheit(double) y 
 	 * double farenheitToCelsius(double). 

@@ -1,3 +1,4 @@
+package repaso.examen1B;
 import java.util.Scanner;
 
 public class algoritmoEuclides {

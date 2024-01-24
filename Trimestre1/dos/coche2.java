@@ -1,3 +1,4 @@
+package trimestre1.dos;
 /*Crea la clase coche con dos constructores. Uno toma parametros y el otro no. Los dos 
  * constructores inicializaran
  * los atributos marcha y modelo de la clase. Crea dos objetos(Cada objeto llama a 

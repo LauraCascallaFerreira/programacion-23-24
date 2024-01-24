@@ -1,4 +1,4 @@
-package recursos;
+package trimestre1.cuatro.recursos;
 
 import java.util.Scanner;
 

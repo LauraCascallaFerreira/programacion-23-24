@@ -1,3 +1,4 @@
+package trimestre1.dos;
 import java.util.Scanner;
 
 //conversion pulgadas y de codos a centimetros

@@ -1,3 +1,4 @@
+package trimestre1.cosasExamen;
 
 
 import java.util.Scanner;

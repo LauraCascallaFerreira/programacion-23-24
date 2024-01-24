@@ -1,4 +1,4 @@
-package Trimestre1.tres.ejemplos;
+package trimestre1.tres.ejemplos;
 
 public class ejemplo11 {
     public static void main(String[] args) {
