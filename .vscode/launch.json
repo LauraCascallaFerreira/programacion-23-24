@@ -1,0 +1,994 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "reto3",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.reto3",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "buscaCaracter",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.buscaCaracter",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05b",
+            "request": "launch",
+            "mainClass": "repaso.arrays.ejercicio05b",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01(1)",
+            "request": "launch",
+            "mainClass": "repaso.arrays2.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02(1)",
+            "request": "launch",
+            "mainClass": "repaso.arrays2.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03(1)",
+            "request": "launch",
+            "mainClass": "repaso.arrays2.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "cadenas",
+            "request": "launch",
+            "mainClass": "repaso.ejercicios.cadenas",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "repaso.ejercicios.calculadora",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01(2)",
+            "request": "launch",
+            "mainClass": "repaso.examen1A.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02(2)",
+            "request": "launch",
+            "mainClass": "repaso.examen1A.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03(2)",
+            "request": "launch",
+            "mainClass": "repaso.examen1A.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05(1)",
+            "request": "launch",
+            "mainClass": "repaso.examen1A.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCuentaAhorro",
+            "request": "launch",
+            "mainClass": "repaso.examen1A.testCuentaAhorro",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "algoritmoEuclides",
+            "request": "launch",
+            "mainClass": "repaso.examen1B.algoritmoEuclides",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01(3)",
+            "request": "launch",
+            "mainClass": "repaso.examen1B.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02(3)",
+            "request": "launch",
+            "mainClass": "repaso.examen1B.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03(3)",
+            "request": "launch",
+            "mainClass": "repaso.examen1B.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05(2)",
+            "request": "launch",
+            "mainClass": "repaso.examen1B.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01(4)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02(4)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03(4)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04(1)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05(3)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio06",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio06",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio07",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin01.ejercicio07",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01(5)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02(5)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03(5)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04(2)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05(4)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio06(1)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio06",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio07(1)",
+            "request": "launch",
+            "mainClass": "trimestre1.boletin02.ejercicio07",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio4A",
+            "request": "launch",
+            "mainClass": "trimestre1.correccion_examen.ejercicio4A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio4B",
+            "request": "launch",
+            "mainClass": "trimestre1.correccion_examen.ejercicio4B",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "algoritmoEuclides(1)",
+            "request": "launch",
+            "mainClass": "trimestre1.cosasExamen.algoritmoEuclides",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "factorialRecursivo",
+            "request": "launch",
+            "mainClass": "trimestre1.cosasExamen.factorialRecursivo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "gemelos",
+            "request": "launch",
+            "mainClass": "trimestre1.cosasExamen.gemelos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "perfectos",
+            "request": "launch",
+            "mainClass": "trimestre1.cosasExamen.perfectos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "rectanguloTest",
+            "request": "launch",
+            "mainClass": "trimestre1.cosasExamen.rectanguloTest",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "cohete",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.ejemplos.cohete",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "libroRectanguloTest",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.ejemplos.libroRectanguloTest",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testRectangulo",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.ejemplos.testRectangulo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "bebe",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.bebe",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "piramide",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.piramide",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "piramide2",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.piramide2",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto01",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.propuesto01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPeces",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.testPeces",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "transformaBase",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.transformaBase",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "transformaBaseIterativo",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.propuestos.transformaBaseIterativo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "potencial",
+            "request": "launch",
+            "mainClass": "trimestre1.cuatro.recursos.potencial",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "conversion",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.conversion",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "diasMes",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.diasMes",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "millas",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.millas",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "peso",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.peso",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "rebajas",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.rebajas",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "resuelto01",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.resuelto01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCoche",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testCoche",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCoche2",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testCoche2",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testConsumo",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testConsumo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testFinanzas",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testFinanzas",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testIsrael",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testIsrael",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testMiNumero",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testMiNumero",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testNumero",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testNumero",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPajaro",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testPajaro",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testProSatelite",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testProSatelite",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testSatelite",
+            "request": "launch",
+            "mainClass": "trimestre1.dos.testSatelite",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "LauraCascallanaFerreira_ejercicio2A",
+            "request": "launch",
+            "mainClass": "trimestre1.pruebas.LauraCascallanaFerreira_ejercicio2A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "LauraCascallanaFerreira_ejercicio4A",
+            "request": "launch",
+            "mainClass": "trimestre1.pruebas.LauraCascallanaFerreira_ejercicio4A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "LauraCascallanaFerreira_ejercicio4B",
+            "request": "launch",
+            "mainClass": "trimestre1.pruebas.LauraCascallanaFerreira_ejercicio4B",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "trimestre1.recursividad.Factorial",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "trimestre1.recursividad.Fibonacci",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "InversionCadena",
+            "request": "launch",
+            "mainClass": "trimestre1.recursividad.InversionCadena",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "Potencia",
+            "request": "launch",
+            "mainClass": "trimestre1.recursividad.Potencia",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "SumarNumerosNaturales",
+            "request": "launch",
+            "mainClass": "trimestre1.recursividad.SumarNumerosNaturales",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "aritmetica",
+            "request": "launch",
+            "mainClass": "trimestre1.sucesion.aritmetica",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "aritmeticaArray",
+            "request": "launch",
+            "mainClass": "trimestre1.sucesion.aritmeticaArray",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "trimestre1.sucesion.fibonacci",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "geometrica",
+            "request": "launch",
+            "mainClass": "trimestre1.sucesion.geometrica",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.armstrong",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "armstrong2",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.armstrong2",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "armstrong3",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.armstrong3",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "condicionales",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.condicionales",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "condicionales2",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.condicionales2",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "condicionales3",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.condicionales3",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "condicionales4",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.condicionales4",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "contadorIngles",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.contadorIngles",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "digital",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.digital",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo04",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo05",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo06",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo06",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo07",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo07",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo08",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo08",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo09",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo09",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo10",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo10",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo11",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.ejemplos.ejemplo11",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto01(1)",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto01b",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto01b",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto02",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto03",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto04",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto07",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto07",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto08",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto08",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto09",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto09",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto11",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto11",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "propuesto12",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.propuestos.propuesto12",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "resuelto02",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.resuelto02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "resuelto03",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.resuelto03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "sacarDeDos",
+            "request": "launch",
+            "mainClass": "trimestre1.tres.sacarDeDos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testAtlena",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.atleta.testAtlena",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testAvion",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.avion.testAvion",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "cadena",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.cadena",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "cadenaBis",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.cadenaBis",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "juegoDePalabra",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.juegoDePalabra",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "lecturaArgumentos",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.lecturaArgumentos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "lecturaDeFrases",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.lecturaDeFrases",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "palindromoPalabra",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.palindromoPalabra",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCaja",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.caja.testCaja",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testConversorMetros",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.conversor.testConversorMetros",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "test2Cuenta",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cuenta.test2Cuenta",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCuenta",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cuenta.testCuenta",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testFigura",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.figura.testFigura",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPelicula",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.pelicula.testPelicula",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testAutomovil",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.testAutomovil",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPersona",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.testPersona",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPersona2",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.testPersona2",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPlaneta",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.testPlaneta",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "IMC",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.IMC",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "busqueda",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.busqueda",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "busquedaEnDos",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.busquedaEnDos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "cuadraticaEcuacion",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.cuadraticaEcuacion",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "duplicados",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.duplicados",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "mayorMenor",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.mayorMenor",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "postIncremento",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.postIncremento",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "repetidos",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.repetidos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "sumaInversos",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.sumaInversos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        }
+    ]
+}
