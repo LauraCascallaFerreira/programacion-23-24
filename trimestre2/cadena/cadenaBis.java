@@ -1,4 +1,4 @@
-package trimestre2.objetos.cadena;
+package trimestre2.cadena;
 
 public class cadenaBis {
     /*recibir un string como parametro y calcular las mayusculas que tiene

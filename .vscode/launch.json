@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "acronimos",
+            "request": "launch",
+            "mainClass": "trimestre2.cadena.acronimos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testMedicamento",
+            "request": "launch",
+            "mainClass": "trimestre2.clasesInternas.testMedicamento",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ordenarArray",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.ordenarArray",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "envoltorio",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.envoltorio",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "acronimos",
+            "request": "launch",
+            "mainClass": "trimestre2.objetos.cadena.acronimos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "reto3",
             "request": "launch",
             "mainClass": "trimestre2.objetos.cadena.reto3",

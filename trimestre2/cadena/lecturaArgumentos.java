@@ -1,4 +1,4 @@
-package trimestre2.objetos.cadena;
+package trimestre2.cadena;
 
 public class lecturaArgumentos {
     public static void main(String[] args) {
