@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testTienda",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.testTienda",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "acronimos",
             "request": "launch",
             "mainClass": "trimestre2.cadena.acronimos",

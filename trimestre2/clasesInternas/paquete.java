@@ -26,6 +26,63 @@ public class paquete {
         this.peso = peso;
     }
 
+    public void setRemitente(persona remitente) {
+        this.remitente = remitente;
+    }
+
+    public void setDestinatario(persona destinatario) {
+        this.destinatario = destinatario;
+    }
+
+    public void setEnvio(tipoEnvio envio) {
+        this.envio = envio;
+    }
+
+    public void setContenido(tipoContenido contenido) {
+        this.contenido = contenido;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double valorPaquete() {
+		int unitario = 0;
+		if (this.envio == envio.NACIONAL) {
+			if (this.contenido == contenido.DOCUMENTO) {
+
+				if (peso > 2)
+					unitario = 3000;
+				else
+					unitario = 2000;
+			}
+			if (this.contenido == contenido.MERCANCIA) {
+
+				if (peso > 5)
+					unitario = 7000;
+				else
+					unitario = 5000;
+			}
+		}
+		if (this.envio == envio.INTERNACIONAL) {
+			if (this.contenido == contenido.DOCUMENTO) {
+
+				if (peso > 2)
+					unitario = 15000;
+				else
+					unitario = 10000;
+			}
+			if (this.contenido == contenido.MERCANCIA) {
+
+				if (peso > 5)
+					unitario = 20000;
+				else
+					unitario = 12000;
+			}
+		}
+		return peso*unitario;
+	}
+
     @Override
     public String toString() {
         return "paquete [remitente=" + remitente + ", destinatario=" + destinatario + ", envio=" + envio
