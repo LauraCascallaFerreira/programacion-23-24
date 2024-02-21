@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio04",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.repaso.ejercicio04",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.repaso.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "burbuja",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.ordenacion.burbuja",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.repaso.ejercicio02",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01A",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.ejercicios.examen.ejercicio01A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio14",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.ejercicios.ejercicio14",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "coleccionDeDiscosPrincipal",
             "request": "launch",
             "mainClass": "trimestre2.arrays.coleccion.coleccionDeDiscosPrincipal",
