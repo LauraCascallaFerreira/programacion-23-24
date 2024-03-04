@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejercicio03",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.ejercicios.ejercicio03",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.ejercicios02.ejercicio01",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio07",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.ejercicios.ejercicio07",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio2B",
+            "request": "launch",
+            "mainClass": "trimestre2.arrays.ejercicios.examen.ejercicio2B",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "ejercicio04",
             "request": "launch",
             "mainClass": "trimestre2.arrays.repaso.ejercicio04",
