@@ -2,8 +2,6 @@ package trimestre2.cadena;
 
 import java.util.Scanner;
 
-import trimestre2.repaso.sumaInversos;
-
 public class invertirNumero {
     public static void main(String[] args) {
 
