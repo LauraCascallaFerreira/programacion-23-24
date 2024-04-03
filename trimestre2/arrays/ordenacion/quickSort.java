@@ -70,4 +70,91 @@ public class quickSort {
 			qs(items, i, right);
 	}
 
+	public static void quickSortInvertido(int[] arr, int low, int high) {
+        if (low < high) {
+            int pi = qs2(arr, low, high);
+
+            quickSortInvertido(arr, low, pi - 1);
+            quickSortInvertido(arr, pi + 1, high);
+        }
+    }
+
+    public static int qs2(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1;
+
+        for (int j = low; j < high; j++) {
+            if (arr[j] >= pivot) {
+                i++;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
+	public static void quickSortCaracteresInvertido(char[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+
+            quickSortCaracteresInvertido(arr, low, pi - 1);
+            quickSortCaracteresInvertido(arr, pi + 1, high);
+        }
+    }
+
+	public static int partition(char[] arr, int low, int high) {
+        char pivot = arr[high];
+        int i = low - 1;
+
+        for (int j = low; j < high; j++) {
+            if (arr[j] >= pivot) {
+                i++;
+                char temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        char temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
+	public static void quickSortCaracteres(char[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition2(arr, low, high);
+
+            quickSortCaracteres(arr, low, pi - 1);
+            quickSortCaracteres(arr, pi + 1, high);
+        }
+    }
+
+    public static int partition2(char[] arr, int low, int high) {
+        char pivot = arr[high];
+        int i = low - 1;
+
+        for (int j = low; j < high; j++) {
+            if (arr[j] <= pivot) {
+                i++;
+                char temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        char temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
 }

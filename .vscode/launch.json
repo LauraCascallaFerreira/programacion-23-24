@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "iterador",
+            "request": "launch",
+            "mainClass": "trimestre3.repaso.iterador",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio02A",
+            "request": "launch",
+            "mainClass": "trimestre2.examen2Programacion.ejercicio02A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04A",
+            "request": "launch",
+            "mainClass": "trimestre2.examen2Programacion.ejercicio04A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio03A",
+            "request": "launch",
+            "mainClass": "trimestre2.examen2Programacion.ejercicio03A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05A",
+            "request": "launch",
+            "mainClass": "trimestre2.examen2Programacion.ejercicio05A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio01A",
+            "request": "launch",
+            "mainClass": "trimestre2.examen2Programacion.ejercicio01A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.examenAñoPasado.prueba",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio06A",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.examenAñoPasado.ejercicio06A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "BlackJack",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.ejercicios.BlackJack",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04B",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.examenAñoPasado.ejercicio04B",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio04A",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.examenAñoPasado.ejercicio04A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "blackjack",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.ejercicios.blackjack",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05A",
+            "request": "launch",
+            "mainClass": "trimestre2.repaso.examenAñoPasado.ejercicio05A",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio10",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.boletin01.ejercicio10",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio09",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.boletin01.ejercicio09",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio05",
+            "request": "launch",
+            "mainClass": "trimestre2.arraylist.boletin01.ejercicio05",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "ejercicio02B",
             "request": "launch",
             "mainClass": "trimestre2.repaso.examenAñoPasado.ejercicio02B",

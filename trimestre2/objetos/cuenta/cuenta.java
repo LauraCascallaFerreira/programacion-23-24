@@ -1,6 +1,6 @@
 package trimestre2.objetos.cuenta;
 
-public class cuenta {
+public class cuenta implements Comparable<cuenta>{
 
     String nombre;
 	String apellidos;
@@ -16,6 +16,14 @@ public class cuenta {
 		this.apellidos = apellidosTitular;
 		this.numero = numeroCuenta;
 		this.tipoCuenta = tipoCuenta;
+	}
+
+	public float getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(float saldo) {
+		this.saldo = saldo;
 	}
 
 	@Override
@@ -60,6 +68,7 @@ public class cuenta {
 		else return false;
 	}
 
+
 	/*Transferir dinero a otra cuenta.*/
 	public void transferirACuenta(cuenta cuenta, float saldo){//le pasamos una cuenta y un saldo que será el de la cuenta
 		if(this.retirar((int)saldo)){//pasamos el metodo retirar para ver si hay dinero suficiente en la cuenta 
@@ -69,5 +78,15 @@ public class cuenta {
 			System.out.println(this.toString());
 			System.out.println(cuenta.toString());
 		} else System.out.println("La operación no ha sido realizada con éxito.");
+	}
+
+	public float comparaCuentas(cuenta cuenta){
+		return this.saldo-cuenta.saldo;
+
+	}
+
+	@Override
+	public int compareTo(cuenta cuenta) {
+		return(int)(this.saldo-cuenta.saldo);
 	}
 }

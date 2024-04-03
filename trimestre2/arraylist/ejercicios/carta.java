@@ -17,7 +17,7 @@ public class carta implements Comparable{
     
     carta(){
         this.palo = side[(int) (Math.random()*4)];
-		this.valor = pos[(int) (Math.random()*10)];
+		this.valor = pos[(int) (Math.random()*52)];
     }
 
     public String getPalo() {

@@ -8,14 +8,44 @@ public class cadenaBis {
      * pantalla el resultado
      * recibir como parametro un string y obtenga el string escrito al reves
      */
-    public static void main(String[] args) {
+    
 
-        //int cuentaMayusculas(String parametro)
-        /*(for int k=0; k<parametro.length(); k++){
+        public static int contarLetra(String param, char letra) {
+            int con = 0;
+            for (int k = 0; k < param.length(); k++)  // 65 a 99
+                if (param.charAt(k) == letra ) {
+                    con++;
+                }
+            return con;
+        }
+        
+        public static String voltearCadena (String param) {
+            char[] car = param.toCharArray();
+            String voltear = "";
             
-        }*/
-
+            for ( int i = car.length-1; i > 0; i--) {
+                voltear += car[i];
+            }
+            return voltear;
+        }
+        
+        public static int cuentaMayusculas(String param) {
+            int con = 0;
+            for (int k = 0; k < param.length(); k++)  // 65 a 99
+                if ((param.charAt(k) <= 'Z') && (param.charAt(k) >= 'A')) {
+                    con++;
+                }
+            return con;
+        }
         
         
-    }
+        public static void main(String[] args) {
+            
+            String cadena = "Programación Orientada a Objetos";
+            System.out.println("Mayusculas: "+cuentaMayusculas(cadena));
+            System.out.println("Letras: "+contarLetra(cadena, 'O'));
+            System.out.println("Dada la vuelta: "+voltearCadena(cadena));
+            
+        }
+    
 }
