@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testSeleccion",
+            "request": "launch",
+            "mainClass": "trimestre3.SeleccionFutbol.testSeleccion",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testInmueble",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Inmueble.testInmueble",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestLibro",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.libro.TestLibro",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "iterador",
             "request": "launch",
             "mainClass": "trimestre3.repaso.iterador",

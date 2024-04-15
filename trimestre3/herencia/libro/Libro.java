@@ -6,12 +6,12 @@ public class Libro {
 
     protected String titulo;
     protected String autor;
-    protected double precio;
+    protected double precio=0;
 
     public Libro(String titulo, String autor, double precio) {
         this.titulo = titulo;
         this.autor = autor;
-        this.precio = 0;
+        this.precio = precio;
     }
 
     public Libro(String titulo, String autor) {
