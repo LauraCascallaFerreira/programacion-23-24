@@ -33,7 +33,7 @@ public class Futbolista extends SeleccionFutbol{
         this.demarcacion = demarcacion;
     }
 
-    //Métodos propios
+    //Metodos propios
     public void entrevista(){
         System.out.println("Realiza un viaje");
     }
@@ -47,6 +47,16 @@ public class Futbolista extends SeleccionFutbol{
     public void entrenar(){
         System.out.println("Realiza un entrenamiento");
     }
+
+    @Override
+    public void concentrarse(){
+        System.out.println("Me concentro con los destilados");
+    }
+
+    @Override
+     public void viajar(){
+         System.out.println("Futbolista-->Viajo en avión");
+     }
 
     //ToString
     @Override

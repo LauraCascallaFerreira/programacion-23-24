@@ -25,6 +25,7 @@ public class Entrenador extends SeleccionFutbol{
          this.licencia = licencia;
      }
 
+     //Métodos propios
      @Override
      public void entrenar(){
         System.out.println("Dirige un entrenamiento");
@@ -35,9 +36,18 @@ public class Entrenador extends SeleccionFutbol{
         System.out.println("Dirige un partido");
      }
 
-
      public void planificarEntrenamiento(){
         System.out.println("Planifica un entrenamiento");
+     }
+
+     @Override
+     public void concentrarse(){
+      System.out.println("Me concentro");
+     }
+
+     @Override
+     public void viajar(){
+         System.out.println("Entrenador-->Viajo en first class");
      }
  
      @Override

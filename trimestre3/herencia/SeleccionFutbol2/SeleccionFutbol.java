@@ -54,13 +54,9 @@ public abstract class SeleccionFutbol implements IntegranteSeleccionFutbol{
     }
 
     //Métodos propios
-    public void concentrarse(){
-        System.out.println("Concentrarse");
-    }
+    public abstract void concentrarse();
 
-    public void viajar(){
-        System.out.println("Viajar");
-    }
+    public abstract void viajar();
 
     public void entrenar(){
         System.out.println("Entrenar");

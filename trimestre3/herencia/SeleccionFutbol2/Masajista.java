@@ -33,6 +33,7 @@ public class Masajista extends SeleccionFutbol{
         this.aniosExperiencia = aniosExperiencia;
     }
 
+    //Métodos propios
     @Override
     public void entrenar(){
         System.out.println("Da asistencia en el entrenamiento");
@@ -41,6 +42,16 @@ public class Masajista extends SeleccionFutbol{
     public void darMasaje(){
         System.out.println("Te doy un masaje");
     }
+
+    @Override
+     public void concentrarse(){
+      System.out.println("Me concentro haciendo respiraciones diafragmaticas");
+     }
+
+     @Override
+     public void viajar(){
+         System.out.println("Masajista--> Viajo en bodega sin transportin");
+     }
 
     @Override
     public String toString() {

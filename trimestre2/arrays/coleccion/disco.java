@@ -1,6 +1,7 @@
 package trimestre2.arrays.coleccion;
 
 public class disco {
+	
     private String codigo = "LIBRE";
 	  private String autor;
 	  private String titulo;

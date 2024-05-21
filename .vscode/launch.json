@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestEquipoFutbol",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.EquipoFutbol.TestEquipoFutbol",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestLineaPedido",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.LineaPedido.TestLineaPedido",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestCoche",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Coche.TestCoche",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCirculo",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Circulo.testCirculo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "ColeccionLibros",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Biblioteca.ColeccionLibros",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testCuerpo",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Humano.testCuerpo",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "testPeaje",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.SistemaPago.testPeaje",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "testPeaje",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.SistemaPago.testPeaje",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestDeporte",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Deporte.TestDeporte",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestVehiculos",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Vehiculos.TestVehiculos",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestMamifero",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Mamifero.TestMamifero",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestMedico",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Medicina.TestMedico",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestPrueba",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Aritmetica.TestPrueba",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
+            "name": "TestAnimales",
+            "request": "launch",
+            "mainClass": "trimestre3.herencia.Animales.TestAnimales",
+            "projectName": "programacion-23-24_9d9e1b43"
+        },
+        {
+            "type": "java",
             "name": "testSeleccion",
             "request": "launch",
             "mainClass": "trimestre3.SeleccionFutbol.testSeleccion",
